@@ -1,4 +1,4 @@
-# Attendance_with_DL
+# Student Attendance using OpenCV with ESP32-Cam
 Deep learning project for taking attendance by integrating DL model to see from ESP-32 CAM
 ## How it works
 - Fetching faces from the dataset to learn the model
