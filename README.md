@@ -7,24 +7,13 @@ deeplearning model responsible for detecting faces to take student's attendance
 
 ### Requirements
 * Esp32-cam / laptop cam
-* pre trained model VGG16
-* transfer learning
-* Deep leanring, CNN
-* Early stopping
-  
-### Technologies
-* pandas, numpy, matplotlib
-* tensotflow
-* glob
-* scikit learn 
+* face_recognition library📚
+* Arduino in case of using esp32 or any equivalent camera
+* python
 
-## Project Description
-the purpose of this project is to create a deeplearning model resposible for detecting ct scan for lunges predicting if it's one of the following classes 
-**{0:'failure',1:'normal',2:'Covid',3:'lung atama'}**<br>
-then the model should be deployed on mobile application and all data exchange will be done by GET and POST request, provided down screenshot of a post request to my local host running the model and getting back predictions in a json format 
-
-![postman](images/postman.jpg)
-
+## Get started
+**1- clone the repo**
+`git clone https://github.com/Omar88magdy/Attendace-using-Face-Recognition/tree/main`
 ## image preprocessing
 
 
