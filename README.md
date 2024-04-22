@@ -12,34 +12,41 @@ deeplearning model responsible for detecting faces to take student's attendance
 * python
 
 ## Get started
-**1- clone the repo**
+### 1- Clone the repo
 
 `git clone https://github.com/Omar88magdy/Attendace-using-Face-Recognition/tree/main`
-## image preprocessing
+
+### 2-In case of using external camera
+
+Connect your camera and run `Arduino_code.ino` to start a camera server
+
+<br>
+
+![camera_web_server](https://i.stack.imgur.com/OMrtf.png)
+
+### 3-Import your images
+
+import you own nedded faces to be detected inside `Multi face detection/faces`
 
 
-it's essential to preprocess the image uploaded before passing it to the model <br>
-and getting back the prediction<br>
-and all these preprocesssing procedure should be matched to whatever your model expecting to get to start getting predictions
+### 4-Replace directory
 
+Replace the directory for `faces folder` as indicated with your own directory
+
+
+### 5-Run TestingFace.ipynb
+
+`Multi face detection/TestingFace.ipynb`
+
+# Expected output
 ![pre rpocessing](images/preprocessing.jpg)
 
 
+# Useful resources
+[Electronic clinic](https://www.electroniclinic.com/esp32-cam-with-python-opencv-yolo-v3-for-object-detection-and-identification/#google_vignette)
 
+# contacts
 
-## Needs of this project
+## [Ahmed Hossam](https://www.linkedin.com/in/ahmed-hossam-/)
 
-- data processing/cleaning
-- app developer
-- Deep learning model
-
-
-
-## Getting Started
-
-1. pull the docker image **docker pull <image_name>:<tag>** from [Here](https://hub.docker.com/repository/docker/omar88/docker_app/tags) Ensure Docker is installed on your system <br>You can download and install Docker from the official Docker [website](https://www.docker.com/get-started)
-2. List Docker Images **docker images** (Optional): You can list the Docker images on your system to verify that the image has been successfully pulled
-3. Run Docker Container **docker run <options> <image_name>:<tag>**
-
-
-## [Contact](https://www.linkedin.com/in/omar-magdy-197a88215/)
+## [Omar magdy](https://www.linkedin.com/in/omar-magdy-197a88215/)
