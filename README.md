@@ -12,7 +12,7 @@ deeplearning model responsible for detecting faces to take student's attendance
 * python
 
 ## Get started
-**1- clone the repo*
+**1- clone the repo**
 
 `git clone https://github.com/Omar88magdy/Attendace-using-Face-Recognition/tree/main`
 ## image preprocessing
